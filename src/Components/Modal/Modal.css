@@ -1,0 +1,66 @@
+.modal-content {
+  border-radius: 16px 16px 16px 16px !important;
+}
+
+.modal .modal-dialog {
+  position: relative;
+  width: 100%;
+}
+
+
+.modal .modal-dialog .modal-content .modal-header {
+  padding: 0px;
+}
+
+.modal .modal-dialog .modal-content .modal-header img {
+  border-radius: 16px 16px 0px 0px;
+  height: 29rem;
+  width: 100%;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.modal .modal-dialog .modal-content .modal-footer {
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 20px 20px;
+}
+
+.modal .modal-dialog .close {
+  position: absolute;
+  top: -22px;
+  right: -5px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: rgb(171, 171, 171);
+  border-radius: 50%;
+  width: 20px;
+  height: 22px;
+}
+
+@media only screen and (max-width: 800px) {
+  .modal {
+    padding-right: 40px;
+  }
+  .modal .modal-dialog {
+    position: relative;
+  }
+  .modal .modal-dialog .modal-content .modal-body {
+    padding: 10px 10px;
+    font-size: 16px;
+  }
+  .modal .modal-dialog .modal-content .modal-footer {
+    padding: 10px 10px;
+    letter-spacing: 0px;
+  }
+  .modal .modal-dialog .btn-close {
+    position: absolute;
+    top: 10px;
+    right: -40px;
+  }
+}

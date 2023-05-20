@@ -1,0 +1,100 @@
+.main {
+  background-color: rgba(240, 240, 240, 0.859);
+  width: 100%;
+}
+
+.main .nav2 {
+  padding: 20px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main .nav2 .search {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main .nav2 .search input {
+  width: 420px;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+.main .nav2 .search input::placeholder {
+  font-size: 16px;
+}
+
+.main .nav2 .search i {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.main .data {
+  padding: 20px 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .main .data {
+    padding: 20px 100px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .main .data {
+    padding: 20px 90px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main .data {
+    padding: 20px 60px;
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .main .data {
+    padding: 20px 60px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main .data {
+    padding: 20px 60px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .main .data {
+    padding: 20px 40px;
+    gap: 20px;
+  }
+
+  .main .nav2 .search input {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main .data {
+    padding: 20px 20px;
+    gap: 20px;
+  }
+
+  .main .nav2 {
+    padding: 20px 20px;
+  }
+}
